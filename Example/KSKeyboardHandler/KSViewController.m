@@ -7,9 +7,9 @@
 //
 
 #import "KSViewController.h"
+#import "UIView+KSKeyboardHandler.h"
 
-
-@interface KSViewController ()
+@interface KSViewController () <UITextFieldDelegate>
 
 @end
 
@@ -19,18 +19,29 @@
 {
     [super viewDidLoad];
     
-    UIView *square = UIView.new;
-    square.frame = (CGRect){0,0,self.view.frame.size.width / 2, self.view.frame.size.width / 2};
+    UIView *square         = UIView.new;
+    square.frame           = (CGRect){0,0,self.view.frame.size.width / 2, self.view.frame.size.width / 2};
     square.backgroundColor = UIColor.redColor;
-    square add
+    square.center          = self.view.center;
+    [square addKeyboardListner];
+    
+    UITextField *textField    = UITextField.new;
+    textField.backgroundColor = UIColor.blackColor;
+    textField.frame           = (CGRect){0,0,self.view.frame.size.width / 2, square.frame.size.height/5};
+    textField.delegate        = self;
+    [square addSubview:textField];
+   
+    [self.view addSubview:square];
 
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+
+    [textField resignFirstResponder];
+
+    return YES;
 }
 
 @end

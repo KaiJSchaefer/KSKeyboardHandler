@@ -56,14 +56,6 @@
 
 
 
-- (void)removeKeyboardListner {
-    
-    [[NSNotificationCenter defaultCenter]removeObserver:self];
-    
-}
-
-
-
 - (void)animateView:(NSNotification*)notification {
     
     
