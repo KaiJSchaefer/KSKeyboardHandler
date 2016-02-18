@@ -1,0 +1,6 @@
+framework module Pods_KSKeyboardHandler_Example {
+  umbrella header "Pods-KSKeyboardHandler_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "KSKeyboardHandler",
+  "version": "0.1.0",
+  "summary": "A short description of KSKeyboardHandler.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KSKeyboardHandler",
+  "license": "MIT",
+  "authors": {
+    "Kai Schaefer": "k.schaefer@tnt-venture.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KSKeyboardHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KSKeyboardHandler": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
