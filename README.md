@@ -22,7 +22,7 @@ pod "KSKeyboardHandler"
 
 ## Author
 
-Kai Schaefer, k.schaefer@tnt-venture.com
+Kai Schaefer, kai.j.schaefer(at)gmx.net
 
 ## License
 
