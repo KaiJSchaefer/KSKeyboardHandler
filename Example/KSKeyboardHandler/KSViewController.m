@@ -8,6 +8,7 @@
 
 #import "KSViewController.h"
 
+
 @interface KSViewController ()
 
 @end
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *square = UIView.new;
+    square.frame = (CGRect){0,0,self.view.frame.size.width / 2, self.view.frame.size.width / 2};
+    square.backgroundColor = UIColor.redColor;
+    square add
+
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

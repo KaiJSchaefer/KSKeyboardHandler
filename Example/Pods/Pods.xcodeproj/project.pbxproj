@@ -7,58 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14B685D4FCD7C0E9FEDF30D2E3665A80 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DE783B00FBD6D3318C0041C98A2037FB /* ReplaceMe.m */; };
+		0E75F622D125AD3A4B1DE30D70B561FD /* UIView+KSKeyboardHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A3260549BF10FDD9F1ED9973FA2FD76A /* UIView+KSKeyboardHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
 		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
 		3EDF3886E060193B4EFE6DA9AD15AFF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
+		4066D8AD97A08FB53C2AA555031A0E05 /* UIView+KSKeyboardHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A09949CEF13F3257F7739DF26D681B6 /* UIView+KSKeyboardHandler.m */; };
 		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE419F53C387D81775E49CCFE87E91 /* KSKeyboardHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96649781A30379EF9084CF6798C74093 /* KSKeyboardHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4543813BC5322E8424554678757EAECC /* KSKeyboardHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96649781A30379EF9084CF6798C74093 /* KSKeyboardHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		504CBECD8BE70B441153910318AF6FFC /* Pods-KSKeyboardHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 282593F5A3D96B3469B3236578F02D88 /* Pods-KSKeyboardHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
 		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
+		6ECEA6F21E911A272B3F5E60B4E1E32A /* KSKeyboardHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7783621FC554D56941F201AF95433760 /* KSKeyboardHandler-dummy.m */; };
 		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C9A2578A04D8E03B8A08E78FE2CF5A4 /* Pods-KSKeyboardHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E51520B4A9DEAB4D036B8D78CB6A64 /* Pods-KSKeyboardHandler_Example-dummy.m */; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		836DD6E46CA67AE71AB6302F57F5E69F /* KSKeyboardHandler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D395A1C193C6A97D2EF4020C40748A3F /* KSKeyboardHandler.bundle */; };
 		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		98B3F11AC4C6B4CB1E89F0C98BC9C5D6 /* KSKeyboardHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7783621FC554D56941F201AF95433760 /* KSKeyboardHandler-dummy.m */; };
+		9476D23789509079B31711C2CDCD8750 /* KSKeyboardHandler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D395A1C193C6A97D2EF4020C40748A3F /* KSKeyboardHandler.bundle */; };
 		9FFC5CA408A3DF52C7371498F862C06B /* Pods-KSKeyboardHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6820FC0B8FD22BE55F4A8F76B22D11FB /* Pods-KSKeyboardHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
 		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
 		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
 		D41D22AAA2D923A4CBB26BA5EBDE5E16 /* Pods-KSKeyboardHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1357F6F1B8C420DE6149677698188F3 /* Pods-KSKeyboardHandler_Tests-dummy.m */; };
+		E321C11F117FBBA21C8201EA8D0AB61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		EB1B72BCD45FD3414194BA43C72D247C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
-		F8BB46EE431EF1838E807B90E92FDD76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F363EC026E29B6BDD026AFE9A9184EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18BB8414B6C1A423F7BFBB771D5C18F8;
-			remoteInfo = "KSKeyboardHandler-KSKeyboardHandler";
-		};
 		2F12F291309FBB4E82EB75C728002C9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44E3D71B1EB24CDBFE2BDF541AEA9695;
+			remoteGlobalIDString = C919BBCB89FDF08F0F18FE1477F50B4A;
 			remoteInfo = KSKeyboardHandler;
 		};
 		492D58F9CF84413DA1310A56FF9E8D38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 44E3D71B1EB24CDBFE2BDF541AEA9695;
+			remoteGlobalIDString = C919BBCB89FDF08F0F18FE1477F50B4A;
 			remoteInfo = KSKeyboardHandler;
+		};
+		535A395752CF82E308858F2ABBC92CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4606CED93156D7AA2C1FECBF2277C7;
+			remoteInfo = "KSKeyboardHandler-KSKeyboardHandler";
 		};
 		D5A09D27D13C3AD33C0D72584BE6A48E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -81,6 +82,7 @@
 		2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		282593F5A3D96B3469B3236578F02D88 /* Pods-KSKeyboardHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KSKeyboardHandler_Example-umbrella.h"; sourceTree = "<group>"; };
 		28F8A4331A23AA3C3A129FD6ACDA1C09 /* Pods-KSKeyboardHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KSKeyboardHandler_Example.modulemap"; sourceTree = "<group>"; };
+		2A09949CEF13F3257F7739DF26D681B6 /* UIView+KSKeyboardHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+KSKeyboardHandler.m"; sourceTree = "<group>"; };
 		3705D2D693B31BDB988EB8ADA0C34874 /* Pods-KSKeyboardHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KSKeyboardHandler_Tests.modulemap"; sourceTree = "<group>"; };
 		3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		9D50B9A6BD11EE5823DB01D220EF6B45 /* Pods-KSKeyboardHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KSKeyboardHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9DD51470EAE55518F640C7F2CF29071D /* Pods-KSKeyboardHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KSKeyboardHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F59E7148B06A1AE6A9CBFF34B0DF584 /* Pods-KSKeyboardHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KSKeyboardHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3260549BF10FDD9F1ED9973FA2FD76A /* UIView+KSKeyboardHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+KSKeyboardHandler.h"; sourceTree = "<group>"; };
 		A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		B790BCFE7A2AC408AB546D9B46E7C31C /* Pods_KSKeyboardHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KSKeyboardHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +119,6 @@
 		CBB71B3BE1CDE32328F808719934B095 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D395A1C193C6A97D2EF4020C40748A3F /* KSKeyboardHandler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSKeyboardHandler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE783B00FBD6D3318C0041C98A2037FB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		E1E594E01F5233FBFFF14E8E8FECD2DF /* KSKeyboardHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KSKeyboardHandler-prefix.pch"; sourceTree = "<group>"; };
 		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
@@ -128,11 +130,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		039D9556331DC9260E01BE742FD70EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		563B834F19C36263497A0E384CA12B8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3EDF3886E060193B4EFE6DA9AD15AFF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CAA86658654559DC390F989625C18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E321C11F117FBBA21C8201EA8D0AB61A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,21 +169,6 @@
 				CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */,
 				28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */,
 				AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4753BF6441BD767EB6827B0BB67098C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEC1486543CE2A520DA4CA20460E85ED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8BB46EE431EF1838E807B90E92FDD76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,10 +203,11 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		3F951C0E03BE600EBB03FF5B85AF8570 /* Classes */ = {
+		41538696D30C182A57B4E1B8C3DF9E44 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE783B00FBD6D3318C0041C98A2037FB /* ReplaceMe.m */,
+				A3260549BF10FDD9F1ED9973FA2FD76A /* UIView+KSKeyboardHandler.h */,
+				2A09949CEF13F3257F7739DF26D681B6 /* UIView+KSKeyboardHandler.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -260,6 +263,14 @@
 			path = "Example/Pods/Target Support Files/KSKeyboardHandler";
 			sourceTree = "<group>";
 		};
+		748407747D788864C733C3232271B610 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41538696D30C182A57B4E1B8C3DF9E44 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -300,14 +311,6 @@
 			path = "Target Support Files/Pods-KSKeyboardHandler_Example";
 			sourceTree = "<group>";
 		};
-		8FCCFB69F7F0F00653B9B6D4F0D4BB1C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3F951C0E03BE600EBB03FF5B85AF8570 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		920487A79E4E3BC1FA2C47424A581126 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,7 +347,7 @@
 		E9E3C47ED6C67F4045C6C2892B1C762C /* KSKeyboardHandler */ = {
 			isa = PBXGroup;
 			children = (
-				8FCCFB69F7F0F00653B9B6D4F0D4BB1C /* Pod */,
+				748407747D788864C733C3232271B610 /* Pod */,
 				5A649A2F6882B95B6D5940437D9F9DF2 /* Support Files */,
 			);
 			name = KSKeyboardHandler;
@@ -370,14 +373,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		58E3702CE083016C7AD23C37A36445F2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ECE419F53C387D81775E49CCFE87E91 /* KSKeyboardHandler-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,16 +402,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B71C88F28B23A10D64BFFAE4BCFA1A84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4543813BC5322E8424554678757EAECC /* KSKeyboardHandler-umbrella.h in Headers */,
+				0E75F622D125AD3A4B1DE30D70B561FD /* UIView+KSKeyboardHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18BB8414B6C1A423F7BFBB771D5C18F8 /* KSKeyboardHandler-KSKeyboardHandler */ = {
+		4B4606CED93156D7AA2C1FECBF2277C7 /* KSKeyboardHandler-KSKeyboardHandler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83026ECE7EAA81D87D163AB91482A2B2 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler-KSKeyboardHandler" */;
+			buildConfigurationList = FC042305299173AFF060006637FAA568 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler-KSKeyboardHandler" */;
 			buildPhases = (
-				9C8846547FE53ADF1CA755D360B393B4 /* Sources */,
-				A4753BF6441BD767EB6827B0BB67098C /* Frameworks */,
-				45ADEB23C5BF9CD7491814FFE52F05B8 /* Resources */,
+				13174701BD885BE5E3ED2DCD8B01DDA6 /* Sources */,
+				039D9556331DC9260E01BE742FD70EA0 /* Frameworks */,
+				47CEAA0AF28A5AA8B74C97CD5EFA5F22 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -426,25 +430,6 @@
 			productName = "KSKeyboardHandler-KSKeyboardHandler";
 			productReference = D395A1C193C6A97D2EF4020C40748A3F /* KSKeyboardHandler.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		44E3D71B1EB24CDBFE2BDF541AEA9695 /* KSKeyboardHandler */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0BF7B88BE7B6A88D33341F371BBA7325 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler" */;
-			buildPhases = (
-				E5C0754A85FFA4CDF9F200795D2FF016 /* Sources */,
-				CEC1486543CE2A520DA4CA20460E85ED /* Frameworks */,
-				E0E045AA83DE45FC87AAAFA9C74671CC /* Resources */,
-				58E3702CE083016C7AD23C37A36445F2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC7FF9E86CDFA464979314E6FFDE2C92 /* PBXTargetDependency */,
-			);
-			name = KSKeyboardHandler;
-			productName = KSKeyboardHandler;
-			productReference = 45422507D920802B69947A6A21C5CAE5 /* KSKeyboardHandler.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -479,6 +464,25 @@
 			name = "Pods-KSKeyboardHandler_Example";
 			productName = "Pods-KSKeyboardHandler_Example";
 			productReference = B790BCFE7A2AC408AB546D9B46E7C31C /* Pods_KSKeyboardHandler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C919BBCB89FDF08F0F18FE1477F50B4A /* KSKeyboardHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC2FA29893A87935C7ACD39D4D55631 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler" */;
+			buildPhases = (
+				AB488AD9577EEED51D00A7A8997169F0 /* Sources */,
+				67CAA86658654559DC390F989625C18C /* Frameworks */,
+				FF17EE8A5854C65B1014687318436196 /* Resources */,
+				B71C88F28B23A10D64BFFAE4BCFA1A84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B4C3EE295F08367AE79E79174323D3 /* PBXTargetDependency */,
+			);
+			name = KSKeyboardHandler;
+			productName = KSKeyboardHandler;
+			productReference = 45422507D920802B69947A6A21C5CAE5 /* KSKeyboardHandler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D8F78EF65A31818D861DC1EA6A6B7534 /* Pods-KSKeyboardHandler_Tests */ = {
@@ -522,8 +526,8 @@
 			projectRoot = "";
 			targets = (
 				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
-				44E3D71B1EB24CDBFE2BDF541AEA9695 /* KSKeyboardHandler */,
-				18BB8414B6C1A423F7BFBB771D5C18F8 /* KSKeyboardHandler-KSKeyboardHandler */,
+				C919BBCB89FDF08F0F18FE1477F50B4A /* KSKeyboardHandler */,
+				4B4606CED93156D7AA2C1FECBF2277C7 /* KSKeyboardHandler-KSKeyboardHandler */,
 				B93F1963D1CA839B81A79B2F1276FFE9 /* Pods-KSKeyboardHandler_Example */,
 				D8F78EF65A31818D861DC1EA6A6B7534 /* Pods-KSKeyboardHandler_Tests */,
 			);
@@ -531,24 +535,31 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		45ADEB23C5BF9CD7491814FFE52F05B8 /* Resources */ = {
+		47CEAA0AF28A5AA8B74C97CD5EFA5F22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E045AA83DE45FC87AAAFA9C74671CC /* Resources */ = {
+		FF17EE8A5854C65B1014687318436196 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836DD6E46CA67AE71AB6302F57F5E69F /* KSKeyboardHandler.bundle in Resources */,
+				9476D23789509079B31711C2CDCD8750 /* KSKeyboardHandler.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		13174701BD885BE5E3ED2DCD8B01DDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CC3E7452D970C2994AA3AB9C9EBB620 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -572,10 +583,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C8846547FE53ADF1CA755D360B393B4 /* Sources */ = {
+		AB488AD9577EEED51D00A7A8997169F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ECEA6F21E911A272B3F5E60B4E1E32A /* KSKeyboardHandler-dummy.m in Sources */,
+				4066D8AD97A08FB53C2AA555031A0E05 /* UIView+KSKeyboardHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,22 +600,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5C0754A85FFA4CDF9F200795D2FF016 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98B3F11AC4C6B4CB1E89F0C98BC9C5D6 /* KSKeyboardHandler-dummy.m in Sources */,
-				14B685D4FCD7C0E9FEDF30D2E3665A80 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		14C545D7AC3FCB3F24552ABC0B0A480A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KSKeyboardHandler;
-			target = 44E3D71B1EB24CDBFE2BDF541AEA9695 /* KSKeyboardHandler */;
+			target = C919BBCB89FDF08F0F18FE1477F50B4A /* KSKeyboardHandler */;
 			targetProxy = 2F12F291309FBB4E82EB75C728002C9A /* PBXContainerItemProxy */;
 		};
 		4AA56FC80D2112369E9223E8F9FE6B2B /* PBXTargetDependency */ = {
@@ -614,14 +618,14 @@
 		846BB27261365119000ADCB99116CDBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KSKeyboardHandler;
-			target = 44E3D71B1EB24CDBFE2BDF541AEA9695 /* KSKeyboardHandler */;
+			target = C919BBCB89FDF08F0F18FE1477F50B4A /* KSKeyboardHandler */;
 			targetProxy = 492D58F9CF84413DA1310A56FF9E8D38 /* PBXContainerItemProxy */;
 		};
-		EC7FF9E86CDFA464979314E6FFDE2C92 /* PBXTargetDependency */ = {
+		F4B4C3EE295F08367AE79E79174323D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "KSKeyboardHandler-KSKeyboardHandler";
-			target = 18BB8414B6C1A423F7BFBB771D5C18F8 /* KSKeyboardHandler-KSKeyboardHandler */;
-			targetProxy = 1F363EC026E29B6BDD026AFE9A9184EA /* PBXContainerItemProxy */;
+			target = 4B4606CED93156D7AA2C1FECBF2277C7 /* KSKeyboardHandler-KSKeyboardHandler */;
+			targetProxy = 535A395752CF82E308858F2ABBC92CFA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -729,33 +733,6 @@
 			};
 			name = Debug;
 		};
-		221637FF7937C1E2A39E9153C08B7190 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KSKeyboardHandler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KSKeyboardHandler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7627907939C1888AF4226E237B9AF2B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F59E7148B06A1AE6A9CBFF34B0DF584 /* Pods-KSKeyboardHandler_Tests.release.xcconfig */;
@@ -844,7 +821,34 @@
 			};
 			name = Debug;
 		};
-		AD342B5E4E54D7827AAD2528F5DBEFA0 /* Debug */ = {
+		99FD5F7A412A479BB465DB0277BFB495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KSKeyboardHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KSKeyboardHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A34B2FED5605ABEC522D8273562E3A22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
 			buildSettings = {
@@ -886,6 +890,33 @@
 			};
 			name = Release;
 		};
+		B1C9FB23C4053E17371B2F07FB7C0778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KSKeyboardHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KSKeyboardHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BAF5175FA166657BEB96860F2316202A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */;
@@ -914,34 +945,7 @@
 			};
 			name = Debug;
 		};
-		E7AE574B8DDF683C9827678ACA1A9758 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KSKeyboardHandler/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KSKeyboardHandler/KSKeyboardHandler.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KSKeyboardHandler;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E97C87F45BDA9B34C26AF0BE861A4581 /* Release */ = {
+		BFF0AC0B39785A550239FD9036D0D56B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 844C9E0BD5B2FD250370F9E099B078E0 /* KSKeyboardHandler.xcconfig */;
 			buildSettings = {
@@ -956,15 +960,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BF7B88BE7B6A88D33341F371BBA7325 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				221637FF7937C1E2A39E9153C08B7190 /* Debug */,
-				E7AE574B8DDF683C9827678ACA1A9758 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0EDC9486793060341F389ED396820195 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1001,11 +996,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83026ECE7EAA81D87D163AB91482A2B2 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler-KSKeyboardHandler" */ = {
+		DCC2FA29893A87935C7ACD39D4D55631 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AD342B5E4E54D7827AAD2528F5DBEFA0 /* Debug */,
-				E97C87F45BDA9B34C26AF0BE861A4581 /* Release */,
+				B1C9FB23C4053E17371B2F07FB7C0778 /* Debug */,
+				99FD5F7A412A479BB465DB0277BFB495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC042305299173AFF060006637FAA568 /* Build configuration list for PBXNativeTarget "KSKeyboardHandler-KSKeyboardHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34B2FED5605ABEC522D8273562E3A22 /* Debug */,
+				BFF0AC0B39785A550239FD9036D0D56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
