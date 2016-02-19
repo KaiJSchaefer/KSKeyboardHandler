@@ -8,6 +8,7 @@
 ## KSKeyboardHandler
 
 This library provides a category for UIView to handle UIKeyboardWillChangeFrameNotification.
+Replace the view position if it is necessary.
 
 ## Usage
 
