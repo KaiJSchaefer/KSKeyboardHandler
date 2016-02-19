@@ -21,13 +21,15 @@ Here is a simple example of how to use the category:
 ```objective-c
 #import "UIView+KSKeyboardHandler.h"
 
-...
-    UIView *sampleView         = UIView.new;    
-    [square addKeyboardListner];
+
+UIView *sampleView         = UIView.new;    
+
+[square addKeyboardListner];
 
 ```
 
 ## Requirements
+iOS 7+
 
 ## Installation
 
