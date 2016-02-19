@@ -5,9 +5,27 @@
 [![License](https://img.shields.io/cocoapods/l/KSKeyboardHandler.svg?style=flat)](http://cocoapods.org/pods/KSKeyboardHandler)
 [![Platform](https://img.shields.io/cocoapods/p/KSKeyboardHandler.svg?style=flat)](http://cocoapods.org/pods/KSKeyboardHandler)
 
+## KSKeyboardHandler
+
+This library provides a category for UIView to handle UIKeyboardWillChangeFrameNotification.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## How To Use
+
+Just `#import "UIView+KSKeyboardHandler.h"` and add to your UIView `addKeyboardListner`.
+Here is a simple example of how to use the category:
+
+```objective-c
+#import "UIView+KSKeyboardHandler.h"
+
+...
+    UIView *sampleView         = UIView.new;    
+    [square addKeyboardListner];
+
+```
 
 ## Requirements
 
