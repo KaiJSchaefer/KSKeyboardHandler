@@ -24,7 +24,7 @@ Here is a simple example of how to use the category:
 
 UIView *sampleView         = UIView.new;    
 
-[square addKeyboardListner];
+[sampleView addKeyboardListner];
 
 ```
 
