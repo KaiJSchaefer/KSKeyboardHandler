@@ -30,7 +30,8 @@ UIView *sampleView = UIView.new;
 ```
 
 ## Requirements
-iOS 7+
+* ARC
+* iOS7+
 
 ## Installation
 

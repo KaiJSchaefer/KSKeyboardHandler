@@ -9,22 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = "KSKeyboardHandler"
   s.version          = "0.1.0"
-  s.summary          = "A short description of KSKeyboardHandler."
+  s.summary          = "This library provides a category for UIView to handle UIKeyboardWillChangeFrameNotification."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "This CocoaPod provides the ability to handle UIKeyboardWillChangeFrameNotification and replace the view position if it is necessary."
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/KSKeyboardHandler"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/KaiJSchaefer/KSKeyboardHandler"
   s.license          = 'MIT'
-  s.author           = { "Kai Schaefer" => "k.schaefer@tnt-venture.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/KSKeyboardHandler.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Kai Schaefer" => "kai.j.schaefer@gmx.net" }
+  s.source           = { :git => "https://github.com/KaiJSchaefer/KSKeyboardHandler.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Kai_Schaefer'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
