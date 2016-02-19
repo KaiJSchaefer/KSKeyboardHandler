@@ -22,7 +22,7 @@ Here is a simple example of how to use the category:
 #import "UIView+KSKeyboardHandler.h"
 
 
-UIView *sampleView         = UIView.new;    
+UIView *sampleView = UIView.new;    
 
 [sampleView addKeyboardListner];
 
