@@ -75,7 +75,7 @@
                              CGFloat movY = [self moveYValue:notification];
                              
                              self.center = CGPointMake(self.center.x, self.center.y + movY);
-                             
+                             [self layoutIfNeeded];
                          }
                          completion:^(BOOL finished) {
                              
