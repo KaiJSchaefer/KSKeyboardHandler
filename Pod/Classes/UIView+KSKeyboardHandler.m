@@ -72,10 +72,11 @@
                          animations:^{
                              [UIView setAnimationCurve:curve];
                              
-                             CGFloat movY = [self moveYValue:notification];
-                             
-                             self.center = CGPointMake(self.center.x, self.center.y + movY);
-                             [self layoutIfNeeded];
+                              CGFloat movY = [self moveYValue:notification];
+                              self.center  = CGPointMake(self.center.x, self.center.y + movY);
+                           
+                              [self layoutIfNeeded];
+                           
                          }
                          completion:^(BOOL finished) {
                              
@@ -105,16 +106,18 @@
         
         CGFloat needSpace = freeSpace - keyboardFrame.size.height;
         
-        if (needSpace< 0) {
+        if (needSpace < 0) {
+          
             return needSpace;
         }
         
         if (needSpace < freeSpace) {
+          
             return 0;
         }
         
         if ((beginRect.origin.y - endRect.origin.y) == keyboardFrame.size.height) {
-            
+          
             return needSpace;
             
         } else {
@@ -126,23 +129,20 @@
         
         
     } else {
-        
-        CGFloat movY;
-        
+      
         if (self.originY.floatValue > currentMaxY) {
-            
-            movY = (self.originY.floatValue - currentMaxY) ;
+          
+            CGFloat movY = (self.originY.floatValue - currentMaxY) ;
             
             if (movY > keyboardMoveY) {
                 
                 return keyboardMoveY;
             }
+          
             return movY;
         }
         
-        
         return 0;
-        
     }
     
 }
